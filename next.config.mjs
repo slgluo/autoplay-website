@@ -16,7 +16,8 @@ const withMDX = createMDX({
       remarkMdxImages,
       [remarkFrontmatter],
       [remarkMdxFrontmatter]
-    ]
+    ],
+    rehypePlugins: []
   }
 })
 
