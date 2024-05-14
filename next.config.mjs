@@ -7,6 +7,13 @@ import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'tsx', 'tsx', 'md', 'mdx'],
+  images: {
+    remotePatterns: [
+      {
+        hostname: 'autoplay.chimomo.cn'
+      }
+    ]
+  }
 };
 
 const withMDX = createMDX({

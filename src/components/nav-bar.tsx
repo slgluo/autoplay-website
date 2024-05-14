@@ -8,7 +8,7 @@ const NavBar: React.FC<NavBarProps> = (props: NavBarProps) => {
   return (
     <header className="sticky top-0 h-[60px] flex items-center justify-between">
       <div className="navbar-left flex items-center gap-2 px-4">
-        <Image src={'/logo.png'} alt="logo" width={60} height={60} priority />
+        <Image className='w-[60px] h-[37px]' src={'/logo.png'} alt="logo" width={0} height={0} sizes="100vw" priority />
         <h1 className="text-xl">演奏助手</h1>
       </div>
       <div className="navbar-center flex items-center gap-8">
